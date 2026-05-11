@@ -1,0 +1,157 @@
+/* ================= GLOBAL RESPONSIVE FIXES ================= */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+/* Images should never overflow on mobile */
+img {
+  max-width: 100%;
+}
+
+/* Better mobile tap behavior */
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* ================= MOBILE RESPONSIVE ================= */
+
+@media (max-width: 768px) {
+  body {
+    font-size: 15px;
+  }
+
+  /* Header */
+  header > div {
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  nav {
+    justify-content: center !important;
+    gap: 14px !important;
+  }
+
+  nav a {
+    font-size: 14px !important;
+  }
+
+  /* Top bar */
+  header + div,
+  footer {
+    text-align: center;
+  }
+
+  /* Main page spacing */
+  main {
+    width: 100%;
+  }
+
+  /* Common large grid layouts */
+  section,
+  div {
+    max-width: 100%;
+  }
+
+  /* Product / cart / checkout grids */
+  [style*="grid-template-columns: 1fr 1fr"],
+  [style*="grid-template-columns: 1.1fr 0.9fr"],
+  [style*="grid-template-columns: 1.6fr 0.8fr"],
+  [style*="grid-template-columns: 1fr 0.85fr"],
+  [style*="grid-template-columns: 0.8fr 1.2fr"] {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Product cards / cart cards */
+  [style*="grid-template-columns: 120px 1fr auto"] {
+    grid-template-columns: 1fr !important;
+    text-align: center !important;
+  }
+
+  /* Large headings */
+  h1 {
+    font-size: 32px !important;
+    line-height: 1.15 !important;
+  }
+
+  h2 {
+    font-size: 26px !important;
+  }
+
+  /* Hero sections */
+  [style*="padding: 60px"],
+  [style*="padding: 70px"] {
+    padding: 36px 20px !important;
+  }
+
+  /* Product detail image */
+  [style*="height: 470px"],
+  [style*="height: 480px"],
+  [style*="height: 430px"] {
+    height: 320px !important;
+  }
+
+  /* Product listing search bar */
+  [style*="grid-template-columns: 1fr 220px"] {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Buttons should fit mobile */
+  button,
+  a {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 28px !important;
+  }
+
+  h2 {
+    font-size: 23px !important;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  nav {
+    gap: 10px !important;
+  }
+
+  nav a {
+    font-size: 13px !important;
+  }
+
+  /* Better mobile spacing */
+  [style*="padding: 50px 20px"] {
+    padding: 32px 16px !important;
+  }
+
+  [style*="padding: 40px 20px"] {
+    padding: 28px 16px !important;
+  }
+
+  /* Smaller product images */
+  [style*="height: 230px"] {
+    height: 210px !important;
+  }
+
+  [style*="height: 360px"] {
+    height: 280px !important;
+    min-height: 280px !important;
+  }
+
+  /* Footer columns */
+  footer div {
+    text-align: center;
+  }
+}
