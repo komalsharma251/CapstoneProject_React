@@ -383,4 +383,4 @@ Full Stack Web Developer Intern
 
 # 📄 License
 
-This project was created for educational and portfolio purposes.
+This project was created for educational and portfolio purposes only.
