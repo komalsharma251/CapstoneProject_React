@@ -11,8 +11,6 @@ build/
 # Environment files
 .env
 
-# Zip files
-*.zip
 
 # Optional
-.vscode/
+.vscode/*.zip
