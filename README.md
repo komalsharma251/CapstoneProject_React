@@ -342,7 +342,6 @@ Product gallery sliders and zoom functionality.
 # Customer Side
 
 ## 🏠 Homepage
-## 🏠 Homepage
 ![Homepage](./assets/screenshots/homePage.png)
 
 ---
