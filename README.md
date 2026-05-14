@@ -332,28 +332,75 @@ Product gallery sliders and zoom functionality.
 
 ## 🎥 Project Demo
 
-/* php project */[Watch Demo Video](https://youtu.be/BlaNXDHMxQg)
-
 [Watch Demo Video](https://youtu.be/GU8ZvMikO98)
 
-# 📸  Screenshots 
+# 📸 Screenshots
 
-## Customer Side
-- Homepage
-- Product listing
-- Product details
-- Cart page
-- Checkout page
-- Wishlist page
-- Login/Register pages
+---
 
-## Admin Side
-- Admin dashboard
-- Orders management
-- Products management
-- Reviews management
-- Messages management
+# Customer Side
 
+## 🏠 Homepage
+![Homepage](assets/screenshots/homePage.png)
+
+---
+
+## 🛍 Product Listing
+![Product Listing](assets/screenshots/shopByFilter.png)
+
+---
+
+## 📦 Product Details
+![Product Details](assets/screenshots/productDetail.png)
+
+---
+
+## 🛒 Cart Page
+![Cart Page](assets/screenshots/cart.png)
+
+---
+
+## 💳 Checkout Page
+![Checkout Page](assets/screenshots/checkout.png)
+
+---
+
+## ⭐ Customer Reviews
+![Customer Reviews](assets/screenshots/customerReview.png)
+
+---
+
+## 🔐 User Login
+![User Login](assets/screenshots/userLogin.png)
+
+---
+
+# Admin Side
+
+## 📊 Admin Dashboard
+![Admin Dashboard](assets/screenshots/adminDashboard.png)
+
+---
+
+## ➕ Add Products
+![Add Products](assets/screenshots/adminaddProducts.png)
+
+---
+
+## ✏️ Edit Products
+![Edit Products](assets/screenshots/adminEditProduct.png)
+
+---
+
+## 📦 Products Management
+![Products Management](assets/screenshots/adminProducts.png)
+
+---
+
+# Contact Page
+
+## 📩 Contact Form
+![Contact Page](assets/screenshots/ContactPage.png)
 ---
 
 # 🧠 Learning Outcomes
