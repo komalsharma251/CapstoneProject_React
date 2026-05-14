@@ -186,7 +186,8 @@ src/
  │         ├── AdminMessagesPage.tsx
  │         └── AdminReviewsPage.tsx
  │
- └── App.tsx
+ └── └── App.tsx
+```
 
  # 🗄 Database Tables
 
